@@ -1,4 +1,5 @@
-# Layers of OSI Model
+# Layers of OSI Model 
+https://www.geeksforgeeks.org/layers-of-osi-model/
 
 ## What does “OSI” stand for?
 Open Systems Interconnection. It is a 7 layer architecture with each layer having specific functionality to perform. All these 7 layers work collaboratively to transmit the data from one person to another across the globe. 
@@ -52,6 +53,7 @@ Serives provided by the transport layer:
 
 
 ## Which layers are the “hardware layers”? What does that mean?
+https://www.comptia.org/content/articles/what-is-wireshark-and-how-to-use-it
 
 
 ### Hardware layers
