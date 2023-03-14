@@ -3,13 +3,17 @@
 # Sierra Maldonado - worked with Justin H, Genvea & Nick A
 # Import Datetime
 # Used Shell gudie and display date links in the Resources
+# Used ChatGBT to name the file todays date
+# https://www.cyberciti.biz/faq/linux-log-files-location-and-how-do-i-view-logs-files/
 
 
-# Ask what document you want to add date"
-read -p "What document would you like to add today's date to?" document
+#Varibles
 
-# Get todays date Y-M-D
-date > document
+source_path="/var/log/syslog"
+dest_path=$(pwd)
 
+# Set filename to todays date
+filename=$(date +"%Y-%m-%d")
 
-echo "the date has been added"
+#copy
+cp "$source_path" "$dest_path/$filename"
