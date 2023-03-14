@@ -2,6 +2,7 @@
 #!/bin/bash
 # Sierra Maldonado - worked with Justin H, Genvea & Nick A
 # Import Datetime
+# Used Shell gudie and display date links in the Resources
 
 
 # Ask what document you want to add date"
