@@ -9,18 +9,18 @@ https://www.linuxtrainingacademy.com/linux-commands-cheat-sheet/
 
 
 #Prompt user for Doc
-read -p "Which Document would you like to edit permissions?" Document
+read -p "Type in the directory path you would like to edit permissions on?" Directory
 
 #Prompt user for Command code
 read -p "Type the command code to change the permissons" Code
 
 # Check File permissions
-ls -l "$Document"
+ls -l "$Directory"
 
 # Change file permissions
-chmod "$Code" "$Document"
+chmod -R "$Code" "$Directory"
 
-echo "File permissions updated successfully"
+echo "Permissions for directory and its contents have been updated successfully"
 
 
 # end
