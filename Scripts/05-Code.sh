@@ -59,6 +59,7 @@ while true; do
         1)
             echo "Log is clear"
             :> $Logfile
+            echo "size of $logfile = $Filesize bytes"
             read -p "Enter to continue"
             ;;
         2) 
@@ -70,6 +71,7 @@ while true; do
             exit 0
             ;;
     esac
+    echo "size of $logfile = $Filesize bytes"
 done
 
 #end
