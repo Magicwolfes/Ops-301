@@ -28,7 +28,7 @@ while true; do
             read -p "Enter to continue"
             ;;
         3)
-            ipconfig
+            ip a 
             read -p "Enter to continue"
             ;;
         4)
