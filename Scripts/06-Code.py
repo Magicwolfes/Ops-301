@@ -14,13 +14,15 @@ print("Current working directory")
 #Import os module
 import os
 
-# Execute bash commands
+# Define Var
 butter= os.system("ls")
 taco= os.system("whoami")
 cheese= os.system("lshw -short")
 
+# Execute bash commands
 print (butter, taco, cheese)
 
+#Use print 3x
 print ("this is my last print")
 
 #end
