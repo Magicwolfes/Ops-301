@@ -7,7 +7,7 @@ The idea of NAT is to allow multiple devices to access the Internet through a si
 
 
 ## At what layer of the OSI model does NAT happen?
-Layer 4, because it is modifying the IP header.
+Layer 3, because it is modifying the IP header.
 
 
 ## What happens to packets when NAT runs out of addresses in the pool of available IPs?
