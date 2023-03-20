@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/user/bin/env python3
 # Sierra Maldonado - worked with Justin H, Geneva & Nick A
 # Python
 #20Mar23
