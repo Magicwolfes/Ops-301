@@ -8,6 +8,7 @@
 # main
 
 
+
 #print the current working directory
 print("Current working directory")
 
@@ -15,9 +16,9 @@ print("Current working directory")
 import os
 
 # Define Var
-butter= os.system("ls")
-taco= os.system("whoami")
-cheese= os.system("lshw -short")
+butter= os.popen("ls").read()
+taco= os.popen("whoami").read()
+cheese= os.popen("lshw -short").read()
 
 # Execute bash commands
 print (butter, taco, cheese)
