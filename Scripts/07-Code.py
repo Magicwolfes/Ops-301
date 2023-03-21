@@ -2,7 +2,7 @@
 # Sierra Maldonado - worked with Justin H, Geneva & Nick A
 # Import Directories 
 # https://stackoverflow.com/questions/64455223/convert-a-for-loop-to-a-function-python-and-function-argument-clarification
-
+# ChatGBT to understand how to do User inputs
 # Main
 
 import os
