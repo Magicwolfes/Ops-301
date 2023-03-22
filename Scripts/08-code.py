@@ -15,7 +15,7 @@ print(Superlist[3])
 #print the sixth through tenth element
 print(Superlist[5:9])
 
-# Change 
+# Change the 7th element to onion
 Superlist[6]=("onion")
 print(Superlist)
 
