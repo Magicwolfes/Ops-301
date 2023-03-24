@@ -5,8 +5,18 @@ A virtual private cloud (VPC) is a secure, isolated private cloud hosted within 
 
 ## What are examples of services that would live in the publicly-accessible part of the VPC? The privately-accessible part?
 
-## What are the trade-offs of using a VPC vs traditional infrastructure?
+### Public
+- Web servers
+- Load balancer
+- Bastion hosts
+### Private
+- Database
+- App Servers
+- Caching servers
 
+## What are the trade-offs of using a VPC vs traditional infrastructure?
+Security risks: VPCs are subject to the same security risks as any other cloud-based infrastructure, and may require additional security measures to ensure data and network security
+Complexity: VPCs can be more complex to set up and manage than traditional infrastructure, as they require knowledge of cloud-specific networking and security concepts.
 
 ### Notes
 A private cloud is a cloud service that is exclusively offered to one organization. A virtual private cloud (VPC) is a private cloud within a public cloud; no one else shares the VPC with the VPC customer.
