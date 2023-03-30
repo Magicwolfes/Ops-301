@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 # Sierra Maldonado worked with Geneva, Justin H, and Nick A
 # DO NOT RUN CODE
+# Chat GBT
+
 
 # os module to interact with the underlying operating system
 import os
